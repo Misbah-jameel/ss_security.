@@ -3,7 +3,7 @@
 import { Header } from '@/components/header';
 import { FavoritesSidebar } from '@/components/favorites-sidebar';
 import { ProductCard } from '@/components/product-card';
-import { Footer } from '@/components/footer';
+// import { Footer } from '@/components/footer';
 import { useFavorites } from '@/lib/favorites-context';
 import Link from 'next/link';
 import { Heart, ArrowLeft } from 'lucide-react';
@@ -76,7 +76,7 @@ export default function FavoritesPage() {
         </section>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
